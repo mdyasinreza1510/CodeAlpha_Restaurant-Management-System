@@ -20,6 +20,6 @@ const menuschema = new mongoose.Schema
 
 })
 
-const menumodel =mongoose.model("Menu",menuschema);
+const menuModel =mongoose.model("Menu",menuschema);
 
-module.exports=menumodel;
+module.exports=menuModel;
