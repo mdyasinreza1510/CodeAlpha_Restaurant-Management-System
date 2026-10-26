@@ -7,14 +7,14 @@ const orderRoutes = require("./routes/order.routes");
 
 const inventoryRoutes = require("./routes/inventory.routes");
 
-
+const reservationRoutes = require("./routes/reservation.routes");
 
 
 
 app.use("/api/menu", menuRoutes);
 app.use("/api/order", orderRoutes);
 app.use("/api/inventory", inventoryRoutes);
-
+app.use("/api/reservation", reservationRoutes);
 
 
 module.exports = app
