@@ -11,7 +11,7 @@ const placeOrder = async (req, res) => {
       table,
     });
 
-    // Auto Update Inventory
+
     const inventory = await inventoryModel.findOne();
 
     if (inventory) {
